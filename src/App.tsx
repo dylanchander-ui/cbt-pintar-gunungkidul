@@ -17,13 +17,13 @@ try {
   }
 } catch (error) {
   firebaseConfig = {
-    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-    appId: import.meta.env.VITE_FIREBASE_APP_ID,
-    measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
+    VITE_FIREBASE_API_KEY=AIzaSyDVlypKQ68GsrORecfUGf3MtOvYKQ6EeUE
+VITE_FIREBASE_AUTH_DOMAIN=cbt-sekolah-2b11c.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=cbt-sekolah-2b11c
+VITE_FIREBASE_STORAGE_BUCKET=cbt-sekolah-2b11c.firebasestorage.app
+VITE_FIREBASE_MESSAGING_SENDER_ID=947076059698
+VITE_FIREBASE_APP_ID=1:947076059698:web:b52bcb7605b0d3884b222b
+VITE_FIREBASE_MEASUREMENT_ID=G-4D6SJ4E0FB
   };
 }
 
